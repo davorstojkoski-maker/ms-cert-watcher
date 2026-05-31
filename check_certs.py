@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Microsoft Certification & Voucher Watcher — v2
-================================================
+Microsoft Certification & Voucher Watcher — v2.1
+=================================================
 Pulls from four official Microsoft sources every week and produces a
 single GitHub issue listing everything new that's free or discounted.
 
@@ -29,32 +29,37 @@ from urllib.parse import urlencode
 # Config
 # ---------------------------------------------------------------------------
 
-HEADERS = {"User-Agent": "ms-cert-watcher/2.0 (github-actions)"}
+HEADERS = {"User-Agent": "ms-cert-watcher/2.1 (github-actions)"}
 SNAPSHOT_FILE = "data/snapshot.json"
 ISSUE_BODY_FILE = "issue_body.md"
 
 CATALOG_URL = (
     "https://learn.microsoft.com/api/catalog/?type=certifications,exams&locale=en-us"
 )
+# Skills Hub Blog RSS — plugins/custom endpoint format
 SKILLS_HUB_RSS = (
-    "https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=skills-hub-blog"
+    "https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss"
+    "?board=skills-hub-blog"
 )
+# VTD events — events.microsoft.com search API
 VTD_URL = (
-    "https://www.microsoft.com/en-us/events/api/v1/events?"
+    "https://events.microsoft.com/api/v1/events/search?"
     + urlencode(
         {
             "scenario": "mvtd",
-            "filters": "primary-language:english",
-            "top": 50,
+            "language": "English",
+            "clientTimeZone": "UTC",
+            "page": 1,
+            "pageSize": 50,
         }
     )
 )
+VTD_PAGE = "https://www.microsoft.com/en-us/events/category/microsoft-virtual-training-days"
 DEALS_URL = "https://learn.microsoft.com/en-us/credentials/certifications/deals"
 
 # Keywords that flag a Skills Hub post as a beta-exam / discount announcement
 BETA_KEYWORDS = ["beta", "80%", "discount code", "voucher", "free exam", "exam offer"]
 FREE_HINT_WORDS = ["fundamentals"]
-
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -121,53 +126,43 @@ def is_fundamentals(item):
 
 def get_blog_posts():
     """Return list of recent Skills Hub posts that look like beta/discount news."""
+    # Try multiple RSS URL patterns — Microsoft has changed these before
+    rss_candidates = [
+        SKILLS_HUB_RSS,
+        "https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=skills-hub-blog",
+        "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=skills-hub-blog",
+    ]
+
+    raw = None
+    for url in rss_candidates:
+        try:
+            raw = fetch(url)
+            break
+        except Exception as e:
+            print(f"[blog] RSS attempt failed ({url}): {e}", file=sys.stderr)
+
+    if raw is None:
+        print("[blog] All RSS URLs failed.", file=sys.stderr)
+        return []
+
     try:
-        raw = fetch(SKILLS_HUB_RSS)
         root = ET.fromstring(raw)
     except Exception as e:
-        print(f"[blog] RSS fetch/parse failed: {e}", file=sys.stderr)
+        print(f"[blog] RSS parse failed: {e}", file=sys.stderr)
         return []
 
     ns = {"atom": "http://www.w3.org/2005/Atom"}
     items = []
 
-    # Try RSS 2.0 format first
-    for item in root.findall(".//item"):
-        title_el = item.find("title")
-        link_el = item.find("link")
-        desc_el = item.find("description")
-        pub_el = item.find("pubDate")
-        title = (title_el.text or "") if title_el is not None else ""
-        link = (link_el.text or "") if link_el is not None else ""
-        desc = (desc_el.text or "") if desc_el is not None else ""
-        pub = (pub_el.text or "") if pub_el is not None else ""
-        blob = (title + " " + desc).lower()
-        if any(kw in blob for kw in BETA_KEYWORDS):
-            # Try to extract an exam code like AZ-900, AI-103, SC-500, AB-250 …
-            codes = re.findall(r"\b[A-Z]{1,3}-\d{3}\b", title + " " + desc)
-            items.append({
-                "id": "blog:" + link,
-                "title": title.strip(),
-                "url": link.strip(),
-                "published": pub.strip(),
-                "exam_codes": list(dict.fromkeys(codes)),  # deduplicated
-                "source": "blog",
-            })
-
-    # Fallback: Atom format
-    if not items:
-        for entry in root.findall("atom:entry", ns):
-            t = entry.find("atom:title", ns)
-            l = entry.find("atom:link", ns)
-            s = entry.find("atom:summary", ns)
-            p = entry.find("atom:published", ns)
-            title = (t.text or "") if t is not None else ""
-            link = (l.attrib.get("href", "") if l is not None else "")
-            summary = (s.text or "") if s is not None else ""
-            pub = (p.text or "") if p is not None else ""
-            blob = (title + " " + summary).lower()
+    def extract_items(entries, get_title, get_link, get_desc, get_pub):
+        for entry in entries:
+            title = get_title(entry) or ""
+            link = get_link(entry) or ""
+            desc = get_desc(entry) or ""
+            pub = get_pub(entry) or ""
+            blob = (title + " " + desc).lower()
             if any(kw in blob for kw in BETA_KEYWORDS):
-                codes = re.findall(r"\b[A-Z]{1,3}-\d{3}\b", title + " " + summary)
+                codes = re.findall(r"\b[A-Z]{1,3}-\d{3}\b", title + " " + desc)
                 items.append({
                     "id": "blog:" + link,
                     "title": title.strip(),
@@ -176,6 +171,26 @@ def get_blog_posts():
                     "exam_codes": list(dict.fromkeys(codes)),
                     "source": "blog",
                 })
+
+    # RSS 2.0
+    rss_items = root.findall(".//item")
+    if rss_items:
+        extract_items(
+            rss_items,
+            lambda e: (e.find("title").text if e.find("title") is not None else ""),
+            lambda e: (e.find("link").text if e.find("link") is not None else ""),
+            lambda e: (e.find("description").text if e.find("description") is not None else ""),
+            lambda e: (e.find("pubDate").text if e.find("pubDate") is not None else ""),
+        )
+    else:
+        # Atom
+        extract_items(
+            root.findall("atom:entry", ns),
+            lambda e: (e.find("atom:title", ns).text if e.find("atom:title", ns) is not None else ""),
+            lambda e: (e.find("atom:link", ns).attrib.get("href", "") if e.find("atom:link", ns) is not None else ""),
+            lambda e: (e.find("atom:summary", ns).text if e.find("atom:summary", ns) is not None else ""),
+            lambda e: (e.find("atom:published", ns).text if e.find("atom:published", ns) is not None else ""),
+        )
 
     print(f"[blog] {len(items)} relevant post(s) found.")
     return items
@@ -188,34 +203,65 @@ def get_blog_posts():
 
 def get_vtd_events():
     """
-    Fetch VTD events from the Microsoft Events API.
-    Returns list of event dicts with id, title, url, date, discount.
-    Falls back gracefully if the API shape changes.
+    Fetch VTD events. Tries the JSON API first, falls back to scraping
+    the events page if the API shape changes or returns a 404.
     """
+    # --- attempt 1: JSON API ---
     try:
         data = fetch_json(VTD_URL)
+        raw_list = (
+            data if isinstance(data, list)
+            else data.get("value") or data.get("events") or data.get("items") or []
+        )
+        if raw_list:
+            events = []
+            for ev in raw_list:
+                eid = (ev.get("id") or ev.get("eventId")
+                       or ev.get("sessionId") or ev.get("title", ""))
+                title = ev.get("title") or ev.get("name") or "(untitled)"
+                url = (ev.get("url") or ev.get("registrationUrl")
+                       or ev.get("eventUrl") or VTD_PAGE)
+                start = (ev.get("startDate") or ev.get("startDateTime")
+                         or ev.get("startTime") or "")
+                events.append({
+                    "id": "vtd:" + str(eid),
+                    "title": title,
+                    "url": url,
+                    "date": start[:10] if start else "",
+                    "discount": "50% exam discount after attending",
+                    "source": "vtd",
+                })
+            print(f"[vtd] {len(events)} event(s) fetched via API.")
+            return events
     except Exception as e:
-        print(f"[vtd] fetch failed: {e}", file=sys.stderr)
-        return []
+        print(f"[vtd] API fetch failed: {e} — trying page scrape.", file=sys.stderr)
 
-    events = []
-    # The events API returns {"value": [...]} or just a list
-    raw_list = data if isinstance(data, list) else data.get("value", [])
-    for ev in raw_list:
-        eid = ev.get("id") or ev.get("eventId") or ev.get("title", "")
-        title = ev.get("title") or ev.get("name") or "(untitled)"
-        url = ev.get("url") or ev.get("registrationUrl") or "https://www.microsoft.com/events"
-        start = ev.get("startDate") or ev.get("startDateTime") or ""
-        events.append({
-            "id": "vtd:" + str(eid),
-            "title": title,
-            "url": url,
-            "date": start[:10] if start else "",
-            "discount": "50% exam discount after attending",
-            "source": "vtd",
-        })
-    print(f"[vtd] {len(events)} event(s) fetched.")
-    return events
+    # --- attempt 2: scrape the VTD listing page ---
+    try:
+        html = fetch_text(VTD_PAGE)
+        titles = re.findall(r'"(?:title|name)"\s*:\s*"([^"]{15,120})"', html)
+        events = []
+        seen = set()
+        skip_words = ["microsoft", "cookie", "privacy", "surface", "windows", "copyright"]
+        for t in titles:
+            tl = t.lower()
+            if t in seen or any(s in tl for s in skip_words):
+                continue
+            if "training" in tl or "fundamentals" in tl or "azure" in tl or "virtual" in tl:
+                seen.add(t)
+                events.append({
+                    "id": "vtd:" + t[:80],
+                    "title": t,
+                    "url": VTD_PAGE,
+                    "date": "",
+                    "discount": "50% exam discount after attending",
+                    "source": "vtd",
+                })
+        print(f"[vtd] {len(events)} event(s) found via page scrape.")
+        return events
+    except Exception as e:
+        print(f"[vtd] page scrape also failed: {e}", file=sys.stderr)
+        return []
 
 
 # ---------------------------------------------------------------------------
@@ -226,12 +272,11 @@ def get_vtd_events():
 def get_deals():
     """
     Scrape learn.microsoft.com/credentials/certifications/deals for active promos.
-    We look for headings / paragraphs mentioning active challenges, sweepstakes,
-    free or discounted exam offers.
+    Looks for headings and bold text mentioning discounts/challenges/vouchers.
     """
     DEAL_KEYWORDS = [
         "free", "discount", "voucher", "challenge", "sweepstakes",
-        "50%", "80%", "100%", "no cost",
+        "50%", "80%", "100%", "no cost", "exam offer",
     ]
     try:
         html = fetch_text(DEALS_URL)
@@ -239,17 +284,16 @@ def get_deals():
         print(f"[deals] fetch failed: {e}", file=sys.stderr)
         return []
 
-    # Extract <h2>/<h3> headings and nearby text as crude deal titles
-    # This is intentionally simple so it doesn't break on minor HTML changes
     found = []
+    # Match h2/h3/h4 headings and <strong>/<b> bold text
     for m in re.finditer(
-        r"<h[23][^>]*>(.*?)</h[23]>",
+        r"<(?:h[2-4]|strong|b)[^>]*>(.*?)</(?:h[2-4]|strong|b)>",
         html,
         re.IGNORECASE | re.DOTALL,
     ):
         raw = re.sub(r"<[^>]+>", " ", m.group(1)).strip()
         text = re.sub(r"\s+", " ", raw)
-        if any(kw in text.lower() for kw in DEAL_KEYWORDS) and len(text) > 8:
+        if any(kw in text.lower() for kw in DEAL_KEYWORDS) and 8 < len(text) < 200:
             found.append({
                 "id": "deal:" + text[:80],
                 "title": text,
@@ -386,7 +430,7 @@ def build_issue_body(new_catalog, new_blog, new_vtd, new_deals):
     lines.append(
         "> **Tip:** Virtual Training Days vouchers aren't codes — the discount auto-applies at Pearson VUE checkout "
         "when signed in with the same email you registered with. Allow 5 business days after the event.\n"
-        f"> Free event listings: [Virtual Training Days](https://www.microsoft.com/events/category/microsoft-virtual-training-days) · "
+        f"> Free event listings: [Virtual Training Days]({VTD_PAGE}) · "
         f"[Learn Deals]({DEALS_URL})"
     )
 
@@ -412,19 +456,13 @@ def set_github_env(key, value):
 
 
 def main():
-    # Fetch all sources
     catalog = get_catalog_items()
     blog_posts = get_blog_posts()
     vtd_events = get_vtd_events()
     deals = get_deals()
 
-    # Build new snapshot
     new_snap = build_snapshot(catalog, blog_posts, vtd_events, deals)
-
-    # Load previous
     prev_snap = load_snapshot()
-
-    # Save updated snapshot regardless
     save_snapshot(new_snap)
 
     if prev_snap is None:
@@ -432,7 +470,6 @@ def main():
         set_github_env("HAS_NEWS", "false")
         return 0
 
-    # Diff each source
     prev_ids = set(prev_snap.keys())
     new_ids = set(new_snap.keys())
     added_ids = new_ids - prev_ids
