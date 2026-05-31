@@ -1,0 +1,58 @@
+name: Weekly MS Cert & Voucher Watcher
+
+on:
+  schedule:
+    # Every Monday at 08:00 UTC — adjust the cron if you want a different day/time.
+    - cron: "0 8 * * 1"
+  workflow_dispatch: {}   # also runnable manually from the Actions tab
+
+permissions:
+  contents: write   # commit the updated snapshot
+  issues: write     # open the notification issue
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # No third-party pip packages needed — stdlib only.
+
+      - name: Run watcher
+        run: python check_certs.py
+
+      - name: Commit updated snapshot
+        run: |
+          git config user.name  "cert-watcher-bot"
+          git config user.email "actions@github.com"
+          git add data/snapshot.json
+          if git diff --staged --quiet; then
+            echo "Snapshot unchanged — nothing to commit."
+          else
+            git commit -m "chore: update cert/voucher snapshot [skip ci]"
+            git push
+          fi
+
+      - name: Open GitHub issue if there is news
+        if: env.HAS_NEWS == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs   = require('fs');
+            const body = fs.readFileSync('issue_body.md', 'utf8');
+            const today = new Date().toISOString().slice(0, 10);
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo:  context.repo.repo,
+              title: `MS cert & voucher update — ${today}`,
+              body,
+              labels: ['cert-watch'],
+            });
+            core.info('Issue created.');
