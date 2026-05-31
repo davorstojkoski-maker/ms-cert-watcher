@@ -1,4 +1,129 @@
 {
+  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/ai-skills-fest-is-just-days-away-here-s-what-to-expect/ba-p/4508888": {
+    "exam_codes": [],
+    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/ai-skills-fest-is-just-days-away-here-s-what-to-expect/ba-p/4508888",
+    "published": "Tue, 26 May 2026 14:00:00 GMT",
+    "source": "blog",
+    "title": "AI Skills Fest is just days away—here's what to expect",
+    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/ai-skills-fest-is-just-days-away-here-s-what-to-expect/ba-p/4508888"
+  },
+  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/evolving-the-microsoft-certified-azure-ai-fundamentals/ba-p/4494127": {
+    "exam_codes": [
+      "AI-901",
+      "AI-900"
+    ],
+    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/evolving-the-microsoft-certified-azure-ai-fundamentals/ba-p/4494127",
+    "published": "Thu, 16 Apr 2026 00:55:08 GMT",
+    "source": "blog",
+    "title": "Evolving the Microsoft Certified: Azure AI Fundamentals Certification",
+    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/evolving-the-microsoft-certified-azure-ai-fundamentals/ba-p/4494127"
+  },
+  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-github-certified-agentic-ai-developer/ba-p/4517571": {
+    "exam_codes": [
+      "GH-600"
+    ],
+    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-github-certified-agentic-ai-developer/ba-p/4517571",
+    "published": "Wed, 13 May 2026 16:43:08 GMT",
+    "source": "blog",
+    "title": "New GitHub Certified: Agentic AI Developer",
+    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-github-certified-agentic-ai-developer/ba-p/4517571"
+  },
+  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-ai-agent-builder-associate-certification/ba-p/4494125": {
+    "exam_codes": [
+      "AB-620"
+    ],
+    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-ai-agent-builder-associate-certification/ba-p/4494125",
+    "published": "Tue, 21 Apr 2026 15:59:05 GMT",
+    "source": "blog",
+    "title": "New Microsoft Certified: AI Agent Builder Associate Certification",
+    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-ai-agent-builder-associate-certification/ba-p/4494125"
+  },
+  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-azure-ai-apps-and-agents-developer/ba-p/4494126": {
+    "exam_codes": [
+      "AI-103"
+    ],
+    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-azure-ai-apps-and-agents-developer/ba-p/4494126",
+    "published": "Thu, 16 Apr 2026 18:42:47 GMT",
+    "source": "blog",
+    "title": "New Microsoft Certified: Azure AI Apps and Agents Developer Associate",
+    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-azure-ai-apps-and-agents-developer/ba-p/4494126"
+  },
+  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-azure-ai-cloud-developer-associate/ba-p/4494116": {
+    "exam_codes": [
+      "AI-200"
+    ],
+    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-azure-ai-cloud-developer-associate/ba-p/4494116",
+    "published": "Tue, 05 May 2026 16:00:49 GMT",
+    "source": "blog",
+    "title": "New Microsoft Certified: Azure AI Cloud Developer Associate Certification",
+    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-azure-ai-cloud-developer-associate/ba-p/4494116"
+  },
+  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-cloud-and-ai-security-engineer-associate/ba-p/4494117": {
+    "exam_codes": [
+      "SC-500"
+    ],
+    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-cloud-and-ai-security-engineer-associate/ba-p/4494117",
+    "published": "Fri, 15 May 2026 16:00:00 GMT",
+    "source": "blog",
+    "title": "New Microsoft Certified: Cloud and AI Security Engineer Associate Certification",
+    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-cloud-and-ai-security-engineer-associate/ba-p/4494117"
+  },
+  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-cybersecurity-business-professional/ba-p/4494124": {
+    "exam_codes": [
+      "SC-730"
+    ],
+    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-cybersecurity-business-professional/ba-p/4494124",
+    "published": "Thu, 07 May 2026 16:00:00 GMT",
+    "source": "blog",
+    "title": "New Microsoft Certified: Cybersecurity Business Professional Certification",
+    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-cybersecurity-business-professional/ba-p/4494124"
+  },
+  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-dynamics-365-contact-center-ai-engineer/ba-p/4494119": {
+    "exam_codes": [
+      "AB-250"
+    ],
+    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-dynamics-365-contact-center-ai-engineer/ba-p/4494119",
+    "published": "Thu, 28 May 2026 16:00:00 GMT",
+    "source": "blog",
+    "title": "New Microsoft Certified: Dynamics 365 Contact Center AI Engineer Associate Certification",
+    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-dynamics-365-contact-center-ai-engineer/ba-p/4494119"
+  },
+  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-dynamics-365-sales-ai-consultant/ba-p/4494115": {
+    "exam_codes": [
+      "AB-210"
+    ],
+    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-dynamics-365-sales-ai-consultant/ba-p/4494115",
+    "published": "Wed, 06 May 2026 15:59:19 GMT",
+    "source": "blog",
+    "title": "New Microsoft Certified: Dynamics 365 Sales AI Consultant Associate Certification",
+    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-dynamics-365-sales-ai-consultant/ba-p/4494115"
+  },
+  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-intelligent-applications-builder/ba-p/4494118": {
+    "exam_codes": [
+      "AB-410"
+    ],
+    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-intelligent-applications-builder/ba-p/4494118",
+    "published": "Wed, 27 May 2026 23:51:39 GMT",
+    "source": "blog",
+    "title": "New Microsoft Certified: Intelligent Applications Builder Associate Certification",
+    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-intelligent-applications-builder/ba-p/4494118"
+  },
+  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/turn-up-the-volume-for-ai-skills-fest-no-wristband-required/ba-p/4494134": {
+    "exam_codes": [],
+    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/turn-up-the-volume-for-ai-skills-fest-no-wristband-required/ba-p/4494134",
+    "published": "Tue, 19 May 2026 14:58:02 GMT",
+    "source": "blog",
+    "title": "Turn up the volume for AI Skills Fest—no wristband required",
+    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/turn-up-the-volume-for-ai-skills-fest-no-wristband-required/ba-p/4494134"
+  },
+  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/what-s-new-in-ai-skills-navigator-april-2026/ba-p/4511273": {
+    "exam_codes": [],
+    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/what-s-new-in-ai-skills-navigator-april-2026/ba-p/4511273",
+    "published": "Mon, 20 Apr 2026 16:00:00 GMT",
+    "source": "blog",
+    "title": "What’s new in AI Skills Navigator: April 2026",
+    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/what-s-new-in-ai-skills-navigator-april-2026/ba-p/4511273"
+  },
   "certification.agentic-ai-business-solutions-architect": {
     "id": "certification.agentic-ai-business-solutions-architect",
     "kind": "Certification",
