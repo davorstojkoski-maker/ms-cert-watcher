@@ -34,7 +34,7 @@ jobs:
           git config user.email "actions@github.com"
           git add data/snapshot.json
           if git diff --staged --quiet; then
-            echo "Snapshot unchanged — nothing to commit."
+            echo "Snapshot unchanged - nothing to commit."
           else
             git commit -m "chore: update cert/voucher snapshot [skip ci]"
             git push
