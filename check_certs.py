@@ -397,6 +397,17 @@ def fmt_deal(item):
     return f"- [{item['title']}]({item['url']})"
 
 
+def write_heartbeat_body():
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    lines = [
+        f"## Watcher heartbeat — {today}\n",
+        "No new certifications, vouchers, or deals this week. "
+        "The watcher ran successfully and is working normally.",
+    ]
+    with open(ISSUE_BODY_FILE, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+        
+
 def build_issue_body(new_catalog, new_blog, new_vtd, new_deals):
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     lines = [f"## Microsoft cert & voucher update — {today}\n"]
@@ -506,6 +517,8 @@ def main():
     if total_new == 0:
         print("Nothing new this week.")
         set_github_env("HAS_NEWS", "false")
+        set_github_env("HEARTBEAT", "true")
+        write_heartbeat_body()
         return 0
 
     print(
