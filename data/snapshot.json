@@ -852,141 +852,6 @@
     "title": "Microsoft 365 Certified: Teamwork Administrator Associate",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/m365-teamwork-administrator/?WT.mc_id=api_CatalogApi"
   },
-  "certification.mcsa-bi-reporting": {
-    "id": "certification.mcsa-bi-reporting",
-    "kind": "Certification",
-    "level": "intermediate",
-    "products": [],
-    "source": "catalog",
-    "title": "MCSA: BI Reporting",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mcsa-bi-reporting/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mcsa-microsoft-dynamics-365-for-operations": {
-    "id": "certification.mcsa-microsoft-dynamics-365-for-operations",
-    "kind": "Certification",
-    "level": "intermediate",
-    "products": [],
-    "source": "catalog",
-    "title": "MCSA: Microsoft Dynamics 365 for Operations",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mcsa-microsoft-dynamics-365-for-operations/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mcsa-sql-certification": {
-    "id": "certification.mcsa-sql-certification",
-    "kind": "Certification",
-    "level": "advanced",
-    "products": [],
-    "source": "catalog",
-    "title": "MCSA: SQL Server 2012/2014",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mcsa-sql-certification/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mcsa-sql2016-business-intelligence-certification": {
-    "id": "certification.mcsa-sql2016-business-intelligence-certification",
-    "kind": "Certification",
-    "level": "intermediate",
-    "products": [],
-    "source": "catalog",
-    "title": "MCSA: SQL 2016 BI Development",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mcsa-sql2016-business-intelligence-certification/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mcsa-sql2016-database-administration-certification": {
-    "id": "certification.mcsa-sql2016-database-administration-certification",
-    "kind": "Certification",
-    "level": "intermediate",
-    "products": [],
-    "source": "catalog",
-    "title": "MCSA: SQL 2016 Database Administration",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mcsa-sql2016-database-administration-certification/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mcsa-sql2016-database-development-certification": {
-    "id": "certification.mcsa-sql2016-database-development-certification",
-    "kind": "Certification",
-    "level": "advanced",
-    "products": [],
-    "source": "catalog",
-    "title": "MCSA: SQL 2016 Database Development",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mcsa-sql2016-database-development-certification/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mcsa-universal-windows-platform": {
-    "id": "certification.mcsa-universal-windows-platform",
-    "kind": "Certification",
-    "level": "intermediate",
-    "products": [],
-    "source": "catalog",
-    "title": "MCSA: Universal Windows Platform",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mcsa-universal-windows-platform/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mcsa-web-applications-certification": {
-    "id": "certification.mcsa-web-applications-certification",
-    "kind": "Certification",
-    "level": "intermediate",
-    "products": [],
-    "source": "catalog",
-    "title": "MCSA: Web Applications",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mcsa-web-applications-certification/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mcsa-windows-server-2016-certification": {
-    "id": "certification.mcsa-windows-server-2016-certification",
-    "kind": "Certification",
-    "level": "intermediate",
-    "products": [],
-    "source": "catalog",
-    "title": "MCSA: Windows Server 2016",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mcsa-windows-server-2016-certification/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mcsa-windows-server-certification": {
-    "id": "certification.mcsa-windows-server-certification",
-    "kind": "Certification",
-    "level": "intermediate",
-    "products": [],
-    "source": "catalog",
-    "title": "MCSA: Windows Server 2012",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mcsa-windows-server-certification/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mcsd-app-builder-certification": {
-    "id": "certification.mcsd-app-builder-certification",
-    "kind": "Certification",
-    "level": "advanced",
-    "products": [],
-    "source": "catalog",
-    "title": "MCSD: App Builder",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mcsd-app-builder-certification/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mcse-business-applications": {
-    "id": "certification.mcse-business-applications",
-    "kind": "Certification",
-    "level": "beginner",
-    "products": [],
-    "source": "catalog",
-    "title": "MCSE: Business Applications",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mcse-business-applications/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mcse-core-infrastructure": {
-    "id": "certification.mcse-core-infrastructure",
-    "kind": "Certification",
-    "level": "advanced",
-    "products": [],
-    "source": "catalog",
-    "title": "MCSE: Core Infrastructure",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mcse-core-infrastructure/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mcse-data-management-analytics": {
-    "id": "certification.mcse-data-management-analytics",
-    "kind": "Certification",
-    "level": "intermediate",
-    "products": [],
-    "source": "catalog",
-    "title": "MCSE: Data Management and Analytics",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mcse-data-management-analytics/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mcse-productivity-certification": {
-    "id": "certification.mcse-productivity-certification",
-    "kind": "Certification",
-    "level": "advanced",
-    "products": [],
-    "source": "catalog",
-    "title": "MCSE: Productivity Solutions Expert",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mcse-productivity-certification/?WT.mc_id=api_CatalogApi"
-  },
   "certification.microsoft-365-fundamentals": {
     "id": "certification.microsoft-365-fundamentals",
     "kind": "Certification",
@@ -1023,24 +888,6 @@
     "title": "Microsoft Office Specialist: Expert (Office 2019)",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-office-specialist-expert-2019/?WT.mc_id=api_CatalogApi"
   },
-  "certification.microsoft-office-specialist-master-certification-2013": {
-    "id": "certification.microsoft-office-specialist-master-certification-2013",
-    "kind": "Certification",
-    "level": "intermediate",
-    "products": [],
-    "source": "catalog",
-    "title": "Microsoft Office Specialist 2013 Master",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-office-specialist-master-certification-2013/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.microsoft-office-specialist-master-certification-2016": {
-    "id": "certification.microsoft-office-specialist-master-certification-2016",
-    "kind": "Certification",
-    "level": "advanced",
-    "products": [],
-    "source": "catalog",
-    "title": "Microsoft Office Specialist: 2016 Master",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-office-specialist-master-certification-2016/?WT.mc_id=api_CatalogApi"
-  },
   "certification.modern-desktop": {
     "id": "certification.modern-desktop",
     "kind": "Certification",
@@ -1049,15 +896,6 @@
     "source": "catalog",
     "title": "Microsoft 365 Certified: Endpoint Administrator Associate",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/modern-desktop/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mos-access-2016": {
-    "id": "certification.mos-access-2016",
-    "kind": "Certification",
-    "level": "intermediate",
-    "products": [],
-    "source": "catalog",
-    "title": "Microsoft Office Specialist: Access (Office 2016)",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mos-access-2016/?WT.mc_id=api_CatalogApi"
   },
   "certification.mos-access-expert-2019": {
     "id": "certification.mos-access-expert-2019",
@@ -1076,24 +914,6 @@
     "source": "catalog",
     "title": "Microsoft Office Specialist: Associate (Microsoft 365 Apps)",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-office-specialist-associate-m365-apps/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mos-excel-2016": {
-    "id": "certification.mos-excel-2016",
-    "kind": "Certification",
-    "level": "intermediate",
-    "products": [],
-    "source": "catalog",
-    "title": "Microsoft Office Specialist: Excel (Office 2016)",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mos-excel-2016/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mos-excel-2016-expert": {
-    "id": "certification.mos-excel-2016-expert",
-    "kind": "Certification",
-    "level": "advanced",
-    "products": [],
-    "source": "catalog",
-    "title": "Microsoft Office Specialist: Excel Expert (Office 2016)",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mos-excel-2016-expert/?WT.mc_id=api_CatalogApi"
   },
   "certification.mos-excel-2019": {
     "id": "certification.mos-excel-2019",
@@ -1158,15 +978,6 @@
     "title": "Microsoft Office Specialist: Expert (Microsoft 365 Apps)",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/microsoft-office-specialist-expert-m365-apps/?WT.mc_id=api_CatalogApi"
   },
-  "certification.mos-outlook-2016": {
-    "id": "certification.mos-outlook-2016",
-    "kind": "Certification",
-    "level": "intermediate",
-    "products": [],
-    "source": "catalog",
-    "title": "Microsoft Office Specialist: Outlook (Office 2016)",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mos-outlook-2016/?WT.mc_id=api_CatalogApi"
-  },
   "certification.mos-outlook-2019": {
     "id": "certification.mos-outlook-2019",
     "kind": "Certification",
@@ -1175,15 +986,6 @@
     "source": "catalog",
     "title": "Microsoft Office Specialist: Outlook Associate (Office 2019)",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/mos-outlook-2019/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mos-powerpoint-2016": {
-    "id": "certification.mos-powerpoint-2016",
-    "kind": "Certification",
-    "level": "intermediate",
-    "products": [],
-    "source": "catalog",
-    "title": "Microsoft Office Specialist: PowerPoint (Office 2016)",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mos-powerpoint-2016/?WT.mc_id=api_CatalogApi"
   },
   "certification.mos-powerpoint-2019": {
     "id": "certification.mos-powerpoint-2019",
@@ -1202,24 +1004,6 @@
     "source": "catalog",
     "title": "Microsoft Office Specialist: PowerPoint Associate (Microsoft 365 Apps)",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/mos-powerpoint-associate-m365-apps/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mos-word-2016": {
-    "id": "certification.mos-word-2016",
-    "kind": "Certification",
-    "level": "intermediate",
-    "products": [],
-    "source": "catalog",
-    "title": "Microsoft Office Specialist: Word (Office 2016)",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mos-word-2016/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mos-word-2016-expert": {
-    "id": "certification.mos-word-2016-expert",
-    "kind": "Certification",
-    "level": "advanced",
-    "products": [],
-    "source": "catalog",
-    "title": "Microsoft Office Specialist: Word Expert (Office 2016)",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mos-word-2016-expert/?WT.mc_id=api_CatalogApi"
   },
   "certification.mos-word-2019": {
     "id": "certification.mos-word-2019",
@@ -1256,114 +1040,6 @@
     "source": "catalog",
     "title": "Microsoft Office Specialist: Word Expert (Microsoft 365 Apps)",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/mos-word-expert-m365-apps/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mta-database-fundamentals": {
-    "id": "certification.mta-database-fundamentals",
-    "kind": "Certification",
-    "level": "beginner",
-    "products": [],
-    "source": "catalog",
-    "title": "MTA: Database Fundamentals",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mta-database-fundamentals/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mta-html5-application-development-fundamentals": {
-    "id": "certification.mta-html5-application-development-fundamentals",
-    "kind": "Certification",
-    "level": "beginner",
-    "products": [],
-    "source": "catalog",
-    "title": "MTA: HTML5 Application Development Fundamentals",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mta-html5-application-development-fundamentals/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mta-introduction-to-programming-using-html-and-css": {
-    "id": "certification.mta-introduction-to-programming-using-html-and-css",
-    "kind": "Certification",
-    "level": "beginner",
-    "products": [],
-    "source": "catalog",
-    "title": "MTA: Introduction to Programming Using HTML and CSS",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mta-introduction-to-programming-using-html-and-css/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mta-introduction-to-programming-using-java": {
-    "id": "certification.mta-introduction-to-programming-using-java",
-    "kind": "Certification",
-    "level": "beginner",
-    "products": [],
-    "source": "catalog",
-    "title": "MTA: Introduction to Programming Using Java",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mta-introduction-to-programming-using-java/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mta-introduction-to-programming-using-javascript": {
-    "id": "certification.mta-introduction-to-programming-using-javascript",
-    "kind": "Certification",
-    "level": "beginner",
-    "products": [],
-    "source": "catalog",
-    "title": "MTA: Introduction to Programming Using JavaScript",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mta-introduction-to-programming-using-javascript/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mta-introduction-to-programming-using-python": {
-    "id": "certification.mta-introduction-to-programming-using-python",
-    "kind": "Certification",
-    "level": "beginner",
-    "products": [],
-    "source": "catalog",
-    "title": "MTA: Introduction to Programming Using Python",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mta-introduction-to-programming-using-python/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mta-mobility-and-device-fundamentals": {
-    "id": "certification.mta-mobility-and-device-fundamentals",
-    "kind": "Certification",
-    "level": "beginner",
-    "products": [],
-    "source": "catalog",
-    "title": "MTA: Mobility and Device Fundamentals",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mta-mobility-and-device-fundamentals/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mta-networking-fundamentals": {
-    "id": "certification.mta-networking-fundamentals",
-    "kind": "Certification",
-    "level": "beginner",
-    "products": [],
-    "source": "catalog",
-    "title": "MTA: Networking Fundamentals",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mta-networking-fundamentals/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mta-security-fundamentals": {
-    "id": "certification.mta-security-fundamentals",
-    "kind": "Certification",
-    "level": "beginner",
-    "products": [],
-    "source": "catalog",
-    "title": "MTA: Security Fundamentals",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mta-security-fundamentals/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mta-software-development-fundamentals": {
-    "id": "certification.mta-software-development-fundamentals",
-    "kind": "Certification",
-    "level": "beginner",
-    "products": [],
-    "source": "catalog",
-    "title": "MTA: Software Development Fundamentals",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mta-software-development-fundamentals/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mta-windows-operating-system-fundamentals": {
-    "id": "certification.mta-windows-operating-system-fundamentals",
-    "kind": "Certification",
-    "level": "beginner",
-    "products": [],
-    "source": "catalog",
-    "title": "MTA: Windows Operating System Fundamentals",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mta-windows-operating-system-fundamentals/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.mta-windows-server-administration-fundamentals": {
-    "id": "certification.mta-windows-server-administration-fundamentals",
-    "kind": "Certification",
-    "level": "beginner",
-    "products": [],
-    "source": "catalog",
-    "title": "MTA: Windows Server Administration Fundamentals",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mta-windows-server-administration-fundamentals/?WT.mc_id=api_CatalogApi"
   },
   "certification.operationalizing-machine-learning-and-generative-ai-solutions": {
     "id": "certification.operationalizing-machine-learning-and-generative-ai-solutions",
@@ -1464,50 +1140,6 @@
     "title": "Microsoft Certified: Windows Server Hybrid Administrator Associate",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/windows-server-hybrid-administrator/?WT.mc_id=api_CatalogApi"
   },
-  "exam.70-333": {
-    "id": "exam.70-333",
-    "kind": "Exam",
-    "level": "advanced",
-    "products": [
-      "m365"
-    ],
-    "source": "catalog",
-    "title": "Deploying Enterprise Voice with Skype for Business 2015",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/70-333/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.70-334": {
-    "id": "exam.70-334",
-    "kind": "Exam",
-    "level": "advanced",
-    "products": [
-      "m365"
-    ],
-    "source": "catalog",
-    "title": "Core Solutions of Microsoft Skype for Business 2015",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/70-334/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.70-339": {
-    "id": "exam.70-339",
-    "kind": "Exam",
-    "level": "intermediate",
-    "products": [
-      "m365"
-    ],
-    "source": "catalog",
-    "title": "Managing Microsoft SharePoint Server 2016",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/70-339/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.70-345": {
-    "id": "exam.70-345",
-    "kind": "Exam",
-    "level": "advanced",
-    "products": [
-      "m365"
-    ],
-    "source": "catalog",
-    "title": "Designing and Deploying Microsoft Exchange Server 2016",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/70-345/?WT.mc_id=api_CatalogApi"
-  },
   "exam.70-357": {
     "id": "exam.70-357",
     "kind": "Exam",
@@ -1518,39 +1150,6 @@
     "source": "catalog",
     "title": "Developing Mobile Apps",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/70-357/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.70-410": {
-    "id": "exam.70-410",
-    "kind": "Exam",
-    "level": "intermediate",
-    "products": [
-      "windows-server"
-    ],
-    "source": "catalog",
-    "title": "Installing and Configuring Windows Server 2012",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/70-410/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.70-411": {
-    "id": "exam.70-411",
-    "kind": "Exam",
-    "level": "intermediate",
-    "products": [
-      "windows-server"
-    ],
-    "source": "catalog",
-    "title": "Administering Windows Server 2012",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/70-411/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.70-412": {
-    "id": "exam.70-412",
-    "kind": "Exam",
-    "level": "intermediate",
-    "products": [
-      "windows-server"
-    ],
-    "source": "catalog",
-    "title": "Configuring Advanced Windows Server 2012 Services",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/70-412/?WT.mc_id=api_CatalogApi"
   },
   "exam.70-413": {
     "id": "exam.70-413",
@@ -1573,17 +1172,6 @@
     "source": "catalog",
     "title": "Implementing an Advanced Server Infrastructure",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/70-414/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.70-417": {
-    "id": "exam.70-417",
-    "kind": "Exam",
-    "level": "intermediate",
-    "products": [
-      "windows-server"
-    ],
-    "source": "catalog",
-    "title": "Upgrading Your Skills to MCSA Windows Server 2012",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/70-417/?WT.mc_id=api_CatalogApi"
   },
   "exam.70-461": {
     "id": "exam.70-461",
@@ -1728,61 +1316,6 @@
     "title": "Designing and Providing Microsoft Licensing Solutions to Large Organizations",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/70-705/?WT.mc_id=api_CatalogApi"
   },
-  "exam.70-740": {
-    "id": "exam.70-740",
-    "kind": "Exam",
-    "level": "intermediate",
-    "products": [
-      "windows-server"
-    ],
-    "source": "catalog",
-    "title": "Installation, Storage, and Compute with Windows Server 2016",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/70-740/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.70-741": {
-    "id": "exam.70-741",
-    "kind": "Exam",
-    "level": "intermediate",
-    "products": [
-      "windows-server"
-    ],
-    "source": "catalog",
-    "title": "Networking with Windows Server 2016",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/70-741/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.70-742": {
-    "id": "exam.70-742",
-    "kind": "Exam",
-    "level": "intermediate",
-    "products": [
-      "windows-server"
-    ],
-    "source": "catalog",
-    "title": "Identity with Windows Server 2016",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/70-742/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.70-743": {
-    "id": "exam.70-743",
-    "kind": "Exam",
-    "level": "advanced",
-    "products": [
-      "windows-server"
-    ],
-    "source": "catalog",
-    "title": "Upgrading Your Skills to MCSA: Windows Server 2016",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/70-743/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.70-744": {
-    "id": "exam.70-744",
-    "kind": "Exam",
-    "level": "advanced",
-    "products": [
-      "windows-server"
-    ],
-    "source": "catalog",
-    "title": "Securing Windows Server 2016",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/70-744/?WT.mc_id=api_CatalogApi"
-  },
   "exam.70-745": {
     "id": "exam.70-745",
     "kind": "Exam",
@@ -1892,160 +1425,6 @@
     "source": "catalog",
     "title": "Analyzing and Visualizing Data with Microsoft Excel",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/70-779/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.70-797": {
-    "id": "exam.70-797",
-    "kind": "Exam",
-    "level": "beginner",
-    "products": [
-      "windows"
-    ],
-    "source": "catalog",
-    "title": "Configuring Windows Devices (pilot)",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/70-797/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.77-419": {
-    "id": "exam.77-419",
-    "kind": "Exam",
-    "level": "beginner",
-    "products": [
-      "office-sp"
-    ],
-    "source": "catalog",
-    "title": "Microsoft SharePoint 2013",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/77-419/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.77-601": {
-    "id": "exam.77-601",
-    "kind": "Exam",
-    "level": "beginner",
-    "products": [
-      "office-word"
-    ],
-    "source": "catalog",
-    "title": "MOS: Using Microsoft Office Word 2007",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/77-601/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.77-602": {
-    "id": "exam.77-602",
-    "kind": "Exam",
-    "level": "beginner",
-    "products": [
-      "office-excel"
-    ],
-    "source": "catalog",
-    "title": "MOS: Using Microsoft Office Excel 2007",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/77-602/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.77-726": {
-    "id": "exam.77-726",
-    "kind": "Exam",
-    "level": "intermediate",
-    "products": [
-      "office"
-    ],
-    "source": "catalog",
-    "title": "Microsoft Word Expert (Office 2016)",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/77-726/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.77-728": {
-    "id": "exam.77-728",
-    "kind": "Exam",
-    "level": "intermediate",
-    "products": [
-      "office"
-    ],
-    "source": "catalog",
-    "title": "Microsoft Excel Expert (Office 2016)",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/77-728/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.77-729": {
-    "id": "exam.77-729",
-    "kind": "Exam",
-    "level": "intermediate",
-    "products": [
-      "office-powerpoint"
-    ],
-    "source": "catalog",
-    "title": "Microsoft PowerPoint (Office 2016)",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/77-729/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.77-881": {
-    "id": "exam.77-881",
-    "kind": "Exam",
-    "level": "beginner",
-    "products": [
-      "office-word"
-    ],
-    "source": "catalog",
-    "title": "Word 2010",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/77-881/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.77-882": {
-    "id": "exam.77-882",
-    "kind": "Exam",
-    "level": "beginner",
-    "products": [
-      "office-excel"
-    ],
-    "source": "catalog",
-    "title": "Excel 2010",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/77-882/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.77-883": {
-    "id": "exam.77-883",
-    "kind": "Exam",
-    "level": "beginner",
-    "products": [
-      "office-powerpoint"
-    ],
-    "source": "catalog",
-    "title": "MOS: PowerPoint 2010",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/77-883/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.77-884": {
-    "id": "exam.77-884",
-    "kind": "Exam",
-    "level": "beginner",
-    "products": [
-      "office-outlook"
-    ],
-    "source": "catalog",
-    "title": "Outlook 2010",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/77-884/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.77-885": {
-    "id": "exam.77-885",
-    "kind": "Exam",
-    "level": "beginner",
-    "products": [
-      "office-access"
-    ],
-    "source": "catalog",
-    "title": "Access 2010",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/77-885/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.77-887": {
-    "id": "exam.77-887",
-    "kind": "Exam",
-    "level": "beginner",
-    "products": [
-      "office-word"
-    ],
-    "source": "catalog",
-    "title": "Word 2010 Expert",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/77-887/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.77-888": {
-    "id": "exam.77-888",
-    "kind": "Exam",
-    "level": "beginner",
-    "products": [
-      "office-excel"
-    ],
-    "source": "catalog",
-    "title": "Excel 2010 Expert",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/77-888/?WT.mc_id=api_CatalogApi"
   },
   "exam.98-349": {
     "id": "exam.98-349",
@@ -2239,17 +1618,6 @@
     "title": "Microsoft Azure Integration and Security",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-101/?WT.mc_id=api_CatalogApi"
   },
-  "exam.az-102": {
-    "id": "exam.az-102",
-    "kind": "Exam",
-    "level": "intermediate",
-    "products": [
-      "azure"
-    ],
-    "source": "catalog",
-    "title": "Microsoft Azure Administrator Certification Transition",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-102/?WT.mc_id=api_CatalogApi"
-  },
   "exam.az-103": {
     "id": "exam.az-103",
     "kind": "Exam",
@@ -2287,17 +1655,6 @@
     "source": "catalog",
     "title": "Microsoft Azure Developer Advanced Solutions",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-201/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.az-202": {
-    "id": "exam.az-202",
-    "kind": "Exam",
-    "level": "intermediate",
-    "products": [
-      "azure"
-    ],
-    "source": "catalog",
-    "title": "Microsoft Azure Developer Certification Transition",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-202/?WT.mc_id=api_CatalogApi"
   },
   "exam.az-203": {
     "id": "exam.az-203",
@@ -2393,17 +1750,6 @@
     "source": "catalog",
     "title": "Microsoft Azure Architect Design",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-301/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.az-302": {
-    "id": "exam.az-302",
-    "kind": "Exam",
-    "level": "advanced",
-    "products": [
-      "azure"
-    ],
-    "source": "catalog",
-    "title": "Microsoft Azure Solutions Architect Certification Transition",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-302/?WT.mc_id=api_CatalogApi"
   },
   "exam.az-303": {
     "id": "exam.az-303",
@@ -2579,17 +1925,6 @@
     "source": "catalog",
     "title": "Designing an Azure Data Solution",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-201/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.du-mmy": {
-    "id": "exam.du-mmy",
-    "kind": "Exam",
-    "level": "beginner",
-    "products": [
-      "azure"
-    ],
-    "source": "catalog",
-    "title": "Dummy exam",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dummy/?WT.mc_id=api_CatalogApi"
   },
   "exam.mb-200": {
     "id": "exam.mb-200",
@@ -2783,28 +2118,6 @@
     "title": "Development, Extensions, and Deployment for Microsoft Dynamics 365 Finance",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb6-894/?WT.mc_id=api_CatalogApi"
   },
-  "exam.mb6-897": {
-    "id": "exam.mb6-897",
-    "kind": "Exam",
-    "level": "beginner",
-    "products": [
-      "dynamics-365"
-    ],
-    "source": "catalog",
-    "title": "Microsoft Dynamics 365 for Retail",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb6-897/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.mb6-898": {
-    "id": "exam.mb6-898",
-    "kind": "Exam",
-    "level": "beginner",
-    "products": [
-      "dynamics-365"
-    ],
-    "source": "catalog",
-    "title": "Microsoft Dynamics 365 for Talent",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb6-898/?WT.mc_id=api_CatalogApi"
-  },
   "exam.md-100": {
     "id": "exam.md-100",
     "kind": "Exam",
@@ -2995,17 +2308,6 @@
     "title": "Implementing a Hybrid and Secure Messaging Platform",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ms-201/?WT.mc_id=api_CatalogApi"
   },
-  "exam.ms-202": {
-    "id": "exam.ms-202",
-    "kind": "Exam",
-    "level": "intermediate",
-    "products": [
-      "m365"
-    ],
-    "source": "catalog",
-    "title": "Microsoft 365 Messaging Administrator Certification Transition",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ms-202/?WT.mc_id=api_CatalogApi"
-  },
   "exam.ms-203": {
     "id": "exam.ms-203",
     "kind": "Exam",
@@ -3057,17 +2359,6 @@
     "source": "catalog",
     "title": "Deploying SharePoint Server Hybrid",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ms-301/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.ms-302": {
-    "id": "exam.ms-302",
-    "kind": "Exam",
-    "level": "intermediate",
-    "products": [
-      "m365"
-    ],
-    "source": "catalog",
-    "title": "Microsoft 365 Teamwork Administrator Certification Transition",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ms-302/?WT.mc_id=api_CatalogApi"
   },
   "exam.ms-500": {
     "id": "exam.ms-500",
