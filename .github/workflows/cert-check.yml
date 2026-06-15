@@ -45,6 +45,24 @@ jobs:
             git push
           fi
 
+      - name: Open GitHub issue if there is news
+        if: env.HAS_NEWS == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs   = require('fs');
+            const body = fs.readFileSync('issue_body.md', 'utf8');
+            const today = new Date().toISOString().slice(0, 10);
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo:  context.repo.repo,
+              title: `MS cert & voucher update — ${today}`,
+              body,
+              labels: ['cert-watch'],
+              assignees: [context.repo.owner],
+            });
+            core.info('Issue created.');
+
       - name: Open heartbeat issue if nothing new
         if: env.HEARTBEAT == 'true'
         uses: actions/github-script@v7
