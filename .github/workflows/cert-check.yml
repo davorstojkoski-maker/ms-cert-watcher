@@ -6,6 +6,10 @@ on:
     - cron: "0 8 * * 1"
   workflow_dispatch: {}   # also runnable manually from the Actions tab
 
+concurrency:
+  group: cert-watcher
+  cancel-in-progress: false  
+
 permissions:
   contents: write   # commit the updated snapshot
   issues: write     # open the notification issue
@@ -37,6 +41,7 @@ jobs:
             echo "Snapshot unchanged - nothing to commit."
           else
             git commit -m "chore: update cert/voucher snapshot [skip ci]"
+            git pull --rebase origin main
             git push
           fi
 
@@ -65,4 +70,3 @@ jobs:
               state: 'closed',
             });
 
-            
