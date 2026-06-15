@@ -100,7 +100,7 @@ def get_catalog_items():
                       ("Exam", "exams")]:
         for item in data.get(key) or []:
             uid = item.get("uid") or item.get("title", "")
-            out[uid] = {
+            normalized = {
                 "id": uid,
                 "title": item.get("title", "(untitled)"),
                 "kind": kind,
@@ -109,6 +109,9 @@ def get_catalog_items():
                 "url": item.get("url") or "https://learn.microsoft.com/credentials/",
                 "source": "catalog",
             }
+            if is_deprecated(normalized):
+                continue
+            out[uid] = normalized
     print(f"[catalog] {len(out)} items fetched.")
     return out
 
@@ -117,6 +120,25 @@ def is_fundamentals(item):
     t = item.get("title", "").lower()
     lvl = item.get("level", "").lower()
     return lvl == "beginner" or "fundamentals" in t
+
+
+# Keywords/patterns that indicate a retired or deprecated certification/exam
+DEPRECATED_KEYWORDS = [
+    "mta:", "mta ", "mcsa", "mcse", "mcsd",
+    "dummy exam",
+    "transition",
+    "skype for business",
+    "sharepoint 2013", "sharepoint 2016",
+    "windows server 2012", "windows server 2016",
+    " 2007", " 2010", " 2013", " 2016",
+    "for talent", "for retail",
+    "(pilot)",
+]
+
+
+def is_deprecated(item):
+    t = item.get("title", "").lower()
+    return any(kw in t for kw in DEPRECATED_KEYWORDS)
 
 
 # ---------------------------------------------------------------------------
