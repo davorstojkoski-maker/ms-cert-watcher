@@ -41,19 +41,7 @@ SKILLS_HUB_RSS = (
     "https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss"
     "?board=skills-hub-blog"
 )
-# VTD events — events.microsoft.com search API
-VTD_URL = (
-    "https://events.microsoft.com/api/v1/events/search?"
-    + urlencode(
-        {
-            "scenario": "mvtd",
-            "language": "English",
-            "clientTimeZone": "UTC",
-            "page": 1,
-            "pageSize": 50,
-        }
-    )
-)
+# VTD events — official events/cards API (see get_vtd_events)
 VTD_PAGE = "https://www.microsoft.com/en-us/events/category/microsoft-virtual-training-days"
 DEALS_URL = "https://learn.microsoft.com/en-us/credentials/certifications/deals"
 
@@ -223,67 +211,52 @@ def get_blog_posts():
 # ---------------------------------------------------------------------------
 
 
+VTD_API_URL = "https://www.microsoft.com/msonecloudapi/events/cards"
+
+
 def get_vtd_events():
     """
-    Fetch VTD events. Tries the JSON API first, falls back to scraping
-    the events page if the API shape changes or returns a 404.
+    Fetch upcoming Virtual Training Day events via the official events/cards API.
     """
-    # --- attempt 1: JSON API ---
-    try:
-        data = fetch_json(VTD_URL)
-        raw_list = (
-            data if isinstance(data, list)
-            else data.get("value") or data.get("events") or data.get("items") or []
-        )
-        if raw_list:
-            events = []
-            for ev in raw_list:
-                eid = (ev.get("id") or ev.get("eventId")
-                       or ev.get("sessionId") or ev.get("title", ""))
-                title = ev.get("title") or ev.get("name") or "(untitled)"
-                url = (ev.get("url") or ev.get("registrationUrl")
-                       or ev.get("eventUrl") or VTD_PAGE)
-                start = (ev.get("startDate") or ev.get("startDateTime")
-                         or ev.get("startTime") or "")
-                events.append({
-                    "id": "vtd:" + str(eid),
-                    "title": title,
-                    "url": url,
-                    "date": start[:10] if start else "",
-                    "discount": "50% exam discount after attending",
-                    "source": "vtd",
-                })
-            print(f"[vtd] {len(events)} event(s) fetched via API.")
-            return events
-    except Exception as e:
-        print(f"[vtd] API fetch failed: {e} — trying page scrape.", file=sys.stderr)
+    payload = json.dumps({
+        "locale": "en-ww",
+        "top": 50,
+        "filters": "primary-language:english",
+        "scenario": "MVTD",
+    }).encode("utf-8")
 
-    # --- attempt 2: scrape the VTD listing page ---
+    req = urllib.request.Request(
+        VTD_API_URL,
+        data=payload,
+        headers={**HEADERS, "Content-Type": "application/json"},
+        method="POST",
+    )
+
     try:
-        html = fetch_text(VTD_PAGE)
-        titles = re.findall(r'"(?:title|name)"\s*:\s*"([^"]{15,120})"', html)
-        events = []
-        seen = set()
-        skip_words = ["microsoft", "cookie", "privacy", "surface", "windows", "copyright"]
-        for t in titles:
-            tl = t.lower()
-            if t in seen or any(s in tl for s in skip_words):
-                continue
-            if "training" in tl or "fundamentals" in tl or "azure" in tl or "virtual" in tl:
-                seen.add(t)
-                events.append({
-                    "id": "vtd:" + t[:80],
-                    "title": t,
-                    "url": VTD_PAGE,
-                    "date": "",
-                    "discount": "50% exam discount after attending",
-                    "source": "vtd",
-                })
-        print(f"[vtd] {len(events)} event(s) found via page scrape.")
-        return events
+        with urllib.request.urlopen(req, timeout=60) as r:
+            data = json.loads(r.read())
     except Exception as e:
-        print(f"[vtd] page scrape also failed: {e}", file=sys.stderr)
+        print(f"[vtd] fetch failed: {e}", file=sys.stderr)
         return []
+
+    events = []
+    for card in data.get("cards") or []:
+        c = card.get("content") or {}
+        eid = c.get("id", "")
+        title = c.get("title") or c.get("name") or "(untitled)"
+        url = (c.get("action") or {}).get("href") or VTD_PAGE
+        start = (c.get("eventDates") or {}).get("startDate", "")
+        events.append({
+            "id": "vtd:" + str(eid),
+            "title": title,
+            "url": url,
+            "date": start[:10] if start else "",
+            "discount": "50% exam discount after attending",
+            "source": "vtd",
+        })
+
+    print(f"[vtd] {len(events)} event(s) fetched via API.")
+    return events
 
 
 # ---------------------------------------------------------------------------
@@ -406,7 +379,7 @@ def write_heartbeat_body():
     ]
     with open(ISSUE_BODY_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
-        
+
 
 def build_issue_body(new_catalog, new_blog, new_vtd, new_deals):
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
