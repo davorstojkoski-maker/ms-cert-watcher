@@ -2590,13 +2590,13 @@
     "title": "Microsoft Virtual Training Day: Introduction to Microsoft 365, Copilot, and Agents",
     "url": "https://msevents.microsoft.com/event?id=3921851985"
   },
-  "vtd:0fc5103b-f1f7-4011-d8bc-08deb0719821": {
-    "date": "2026-08-25",
+  "vtd:2c00bfa4-273c-481b-a93e-08dec465ff6e": {
+    "date": "2026-09-28",
     "discount": "50% exam discount after attending",
-    "id": "vtd:0fc5103b-f1f7-4011-d8bc-08deb0719821",
+    "id": "vtd:2c00bfa4-273c-481b-a93e-08dec465ff6e",
     "source": "vtd",
     "title": "Microsoft Virtual Training Day: Build AI Apps with Azure Database for PostgreSQL",
-    "url": "https://msevents.microsoft.com/event?id=3522340598"
+    "url": "https://msevents.microsoft.com/event?id=1776674449"
   },
   "vtd:2dce97ac-04c4-403d-a929-08dec465ff6e": {
     "date": "2026-09-22",
@@ -2614,22 +2614,6 @@
     "title": "Microsoft Security Virtual Training Day: Strengthen Cloud Security with Microsoft...",
     "url": "https://msevents.microsoft.com/event?id=325258788"
   },
-  "vtd:35449e47-b5dd-430b-d837-08deb0719821": {
-    "date": "2026-08-25",
-    "discount": "50% exam discount after attending",
-    "id": "vtd:35449e47-b5dd-430b-d837-08deb0719821",
-    "source": "vtd",
-    "title": "Microsoft Virtual Training Day: Transform your Everyday Business Processes with Agents",
-    "url": "https://msevents.microsoft.com/event?id=1062769633"
-  },
-  "vtd:41a78ae4-bd6c-46dd-d848-08deb0719821": {
-    "date": "2026-08-19",
-    "discount": "50% exam discount after attending",
-    "id": "vtd:41a78ae4-bd6c-46dd-d848-08deb0719821",
-    "source": "vtd",
-    "title": "Microsoft Virtual Training Day: Protect Sensitive Information in the AI Era with...",
-    "url": "https://msevents.microsoft.com/event?id=4150799098"
-  },
   "vtd:50d854db-3e1e-4661-a92f-08dec465ff6e": {
     "date": "2026-09-22",
     "discount": "50% exam discount after attending",
@@ -2645,14 +2629,6 @@
     "source": "vtd",
     "title": "Microsoft Virtual Training Day: Protect Sensitive Information in the AI Era with...",
     "url": "https://msevents.microsoft.com/event?id=2001419196"
-  },
-  "vtd:5241518d-070f-4e21-d8ae-08deb0719821": {
-    "date": "2026-08-21",
-    "discount": "50% exam discount after attending",
-    "id": "vtd:5241518d-070f-4e21-d8ae-08deb0719821",
-    "source": "vtd",
-    "title": "Microsoft Virtual Training Day: Transform Customer Experiences with AI",
-    "url": "https://msevents.microsoft.com/event?id=2968159221"
   },
   "vtd:5251628c-ebf1-49d3-d8ab-08deb0719821": {
     "date": "2026-08-31",
@@ -2677,14 +2653,6 @@
     "source": "vtd",
     "title": "Microsoft Virtual Training Day: Introduction to Microsoft Azure",
     "url": "https://msevents.microsoft.com/event?id=376532947"
-  },
-  "vtd:5c62fae2-0f19-4865-d8b5-08deb0719821": {
-    "date": "2026-08-24",
-    "discount": "50% exam discount after attending",
-    "id": "vtd:5c62fae2-0f19-4865-d8b5-08deb0719821",
-    "source": "vtd",
-    "title": "Microsoft Security Virtual Training Day: Strengthen Cloud Security with Microsoft...",
-    "url": "https://msevents.microsoft.com/event?id=1498984644"
   },
   "vtd:5e9e1475-c9ee-40fc-a9af-08dec465ff6e": {
     "date": "2026-09-22",
@@ -2766,14 +2734,6 @@
     "title": "Microsoft Virtual Training Day: Introduction to Microsoft 365, Copilot, and Agents",
     "url": "https://msevents.microsoft.com/event?id=2811444840"
   },
-  "vtd:82dda42d-aef3-4b66-a8c5-08deb32cca5e": {
-    "date": "2026-08-24",
-    "discount": "50% exam discount after attending",
-    "id": "vtd:82dda42d-aef3-4b66-a8c5-08deb32cca5e",
-    "source": "vtd",
-    "title": "Microsoft Virtual Training Day: Introduction to Microsoft Security",
-    "url": "https://msevents.microsoft.com/event?id=355290422"
-  },
   "vtd:881703a7-99a8-484f-a90f-08dec465ff6e": {
     "date": "2026-09-01",
     "discount": "50% exam discount after attending",
@@ -2789,6 +2749,14 @@
     "source": "vtd",
     "title": "Microsoft Virtual Training Day: Introduction to Microsoft Azure Data",
     "url": "https://msevents.microsoft.com/event?id=3934404961"
+  },
+  "vtd:95381095-42ff-4cf9-a9ad-08dec465ff6e": {
+    "date": "2026-09-28",
+    "discount": "50% exam discount after attending",
+    "id": "vtd:95381095-42ff-4cf9-a9ad-08dec465ff6e",
+    "source": "vtd",
+    "title": "Microsoft Virtual Training Day: Secure and administer Microsoft 365 Copilot and Agents",
+    "url": "https://msevents.microsoft.com/event?id=2646763523"
   },
   "vtd:9981c543-8894-4ce7-a926-08dec465ff6e": {
     "date": "2026-09-03",
@@ -2838,30 +2806,6 @@
     "title": "Microsoft Virtual Training Day: Introduction to Microsoft Azure",
     "url": "https://msevents.microsoft.com/event?id=1775288139"
   },
-  "vtd:a5bee979-ce6b-4214-d82b-08deb0719821": {
-    "date": "2026-08-19",
-    "discount": "50% exam discount after attending",
-    "id": "vtd:a5bee979-ce6b-4214-d82b-08deb0719821",
-    "source": "vtd",
-    "title": "Microsoft Virtual Training Day: Introduction to Microsoft Power Platform",
-    "url": "https://msevents.microsoft.com/event?id=4096674336"
-  },
-  "vtd:a74a4416-e594-4d2b-a8c0-08deb32cca5e": {
-    "date": "2026-08-20",
-    "discount": "50% exam discount after attending",
-    "id": "vtd:a74a4416-e594-4d2b-a8c0-08deb32cca5e",
-    "source": "vtd",
-    "title": "Microsoft Virtual Training Day: Transform Customer Experiences with AI",
-    "url": "https://msevents.microsoft.com/event?id=2121978072"
-  },
-  "vtd:a7dac96d-29e8-40f1-d857-08deb0719821": {
-    "date": "2026-08-24",
-    "discount": "50% exam discount after attending",
-    "id": "vtd:a7dac96d-29e8-40f1-d857-08deb0719821",
-    "source": "vtd",
-    "title": "Microsoft Virtual Training Day: Introduction to Microsoft Azure Data",
-    "url": "https://msevents.microsoft.com/event?id=336039486"
-  },
   "vtd:aa5b0fd4-95b2-4d4b-a90d-08dec465ff6e": {
     "date": "2026-09-02",
     "discount": "50% exam discount after attending",
@@ -2877,14 +2821,6 @@
     "source": "vtd",
     "title": "Microsoft Virtual Training Day: Create Agents in Microsoft Copilot Studio",
     "url": "https://msevents.microsoft.com/event?id=2376161899"
-  },
-  "vtd:b6f68e7c-9ded-45a2-d8a7-08deb0719821": {
-    "date": "2026-08-20",
-    "discount": "50% exam discount after attending",
-    "id": "vtd:b6f68e7c-9ded-45a2-d8a7-08deb0719821",
-    "source": "vtd",
-    "title": "Microsoft Virtual Training Day: Introduction to Microsoft Azure",
-    "url": "https://msevents.microsoft.com/event?id=3919936921"
   },
   "vtd:b771fd60-59c4-45b3-a98a-08dec465ff6e": {
     "date": "2026-09-23",
@@ -2942,13 +2878,21 @@
     "title": "Microsoft Virtual Training Day: Transform your Everyday Business Processes with Agents",
     "url": "https://msevents.microsoft.com/event?id=2903476544"
   },
-  "vtd:f530d76d-3623-4596-a8bf-08deb32cca5e": {
-    "date": "2026-08-24",
+  "vtd:e2a6eb13-8782-4a7d-a945-08dec465ff6e": {
+    "date": "2026-09-28",
     "discount": "50% exam discount after attending",
-    "id": "vtd:f530d76d-3623-4596-a8bf-08deb32cca5e",
+    "id": "vtd:e2a6eb13-8782-4a7d-a945-08dec465ff6e",
     "source": "vtd",
-    "title": "Microsoft Virtual Training Day: Migrate and Modernize Foundation",
-    "url": "https://msevents.microsoft.com/event?id=2646996996"
+    "title": "Microsoft Virtual Training Day: Predict and Defend Against Cybersecurity Threats",
+    "url": "https://msevents.microsoft.com/event?id=4164045356"
+  },
+  "vtd:e7bf699a-e83b-4e11-a9a7-08dec465ff6e": {
+    "date": "2026-09-28",
+    "discount": "50% exam discount after attending",
+    "id": "vtd:e7bf699a-e83b-4e11-a9a7-08dec465ff6e",
+    "source": "vtd",
+    "title": "Microsoft Virtual Training Day: Build AI Apps with Azure Database for PostgreSQL",
+    "url": "https://msevents.microsoft.com/event?id=795773133"
   },
   "vtd:f5ded9be-9a82-41b8-d832-08deb0719821": {
     "date": "2026-08-31",
