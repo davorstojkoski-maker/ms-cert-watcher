@@ -106,16 +106,6 @@
     "title": "New Microsoft Certified: Cloud and AI Security Engineer Associate Certification",
     "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-cloud-and-ai-security-engineer-associate/ba-p/4494117"
   },
-  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-cybersecurity-business-professional/ba-p/4494124": {
-    "exam_codes": [
-      "SC-730"
-    ],
-    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-cybersecurity-business-professional/ba-p/4494124",
-    "published": "Mon, 29 Jun 2026 16:35:37 GMT",
-    "source": "blog",
-    "title": "New Microsoft Certified: Cybersecurity Business Professional Certification",
-    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-cybersecurity-business-professional/ba-p/4494124"
-  },
   "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-dynamics-365-contact-center-ai-engineer/ba-p/4494119": {
     "exam_codes": [
       "AB-250"
@@ -125,16 +115,6 @@
     "source": "blog",
     "title": "New Microsoft Certified: Dynamics 365 Contact Center AI Engineer Associate Certification",
     "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-dynamics-365-contact-center-ai-engineer/ba-p/4494119"
-  },
-  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-dynamics-365-sales-ai-consultant/ba-p/4494115": {
-    "exam_codes": [
-      "AB-210"
-    ],
-    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-dynamics-365-sales-ai-consultant/ba-p/4494115",
-    "published": "Wed, 06 May 2026 15:59:19 GMT",
-    "source": "blog",
-    "title": "New Microsoft Certified: Dynamics 365 Sales AI Consultant Associate Certification",
-    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-dynamics-365-sales-ai-consultant/ba-p/4494115"
   },
   "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-intelligent-applications-builder/ba-p/4494118": {
     "exam_codes": [
@@ -179,7 +159,7 @@
     "level": "advanced",
     "products": [],
     "source": "catalog",
-    "title": "Microsoft Certified: Agentic AI Business Solutions Architect",
+    "title": "Microsoft Certified: Agentic AI Business Solutions Architect Expert",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/agentic-ai-business-solutions-architect/?WT.mc_id=api_CatalogApi"
   },
   "certification.agentic-ai-developer": {
@@ -2622,61 +2602,5 @@
     "source": "catalog",
     "title": "Microsoft Cybersecurity Architect",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-100/?WT.mc_id=api_CatalogApi"
-  },
-  "vtd:2c00bfa4-273c-481b-a93e-08dec465ff6e": {
-    "date": "2026-09-28",
-    "discount": "50% exam discount after attending",
-    "id": "vtd:2c00bfa4-273c-481b-a93e-08dec465ff6e",
-    "source": "vtd",
-    "title": "Microsoft Virtual Training Day: Build AI Apps with Azure Database for PostgreSQL",
-    "url": "https://msevents.microsoft.com/event?id=1776674449"
-  },
-  "vtd:7f5fb868-be55-4a0e-a99b-08dec465ff6e": {
-    "date": "2026-09-24",
-    "discount": "50% exam discount after attending",
-    "id": "vtd:7f5fb868-be55-4a0e-a99b-08dec465ff6e",
-    "source": "vtd",
-    "title": "Microsoft Security Virtual Training Day: Strengthen Cloud Security with Microsoft...",
-    "url": "https://msevents.microsoft.com/event?id=1972415688"
-  },
-  "vtd:95381095-42ff-4cf9-a9ad-08dec465ff6e": {
-    "date": "2026-09-28",
-    "discount": "50% exam discount after attending",
-    "id": "vtd:95381095-42ff-4cf9-a9ad-08dec465ff6e",
-    "source": "vtd",
-    "title": "Microsoft Virtual Training Day: Secure and administer Microsoft 365 Copilot and Agents",
-    "url": "https://msevents.microsoft.com/event?id=2646763523"
-  },
-  "vtd:b771fd60-59c4-45b3-a98a-08dec465ff6e": {
-    "date": "2026-09-23",
-    "discount": "50% exam discount after attending",
-    "id": "vtd:b771fd60-59c4-45b3-a98a-08dec465ff6e",
-    "source": "vtd",
-    "title": "Microsoft Virtual Training Day: Create Agents in Microsoft Copilot Studio",
-    "url": "https://msevents.microsoft.com/event?id=1804181794"
-  },
-  "vtd:e2a6eb13-8782-4a7d-a945-08dec465ff6e": {
-    "date": "2026-09-28",
-    "discount": "50% exam discount after attending",
-    "id": "vtd:e2a6eb13-8782-4a7d-a945-08dec465ff6e",
-    "source": "vtd",
-    "title": "Microsoft Virtual Training Day: Predict and Defend Against Cybersecurity Threats",
-    "url": "https://msevents.microsoft.com/event?id=4164045356"
-  },
-  "vtd:e7bf699a-e83b-4e11-a9a7-08dec465ff6e": {
-    "date": "2026-09-28",
-    "discount": "50% exam discount after attending",
-    "id": "vtd:e7bf699a-e83b-4e11-a9a7-08dec465ff6e",
-    "source": "vtd",
-    "title": "Microsoft Virtual Training Day: Build AI Apps with Azure Database for PostgreSQL",
-    "url": "https://msevents.microsoft.com/event?id=795773133"
-  },
-  "vtd:f7d91bb5-4d92-4c73-a822-08deb32cca5e": {
-    "date": "2026-09-28",
-    "discount": "50% exam discount after attending",
-    "id": "vtd:f7d91bb5-4d92-4c73-a822-08deb32cca5e",
-    "source": "vtd",
-    "title": "Microsoft Virtual Training Day: Introduction to Microsoft Azure Data",
-    "url": "https://msevents.microsoft.com/event?id=2829943936"
   }
 }
