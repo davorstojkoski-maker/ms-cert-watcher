@@ -76,16 +76,6 @@
     "title": "New exam for Microsoft Certified: Windows Server Administrator Associate Certification",
     "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-exam-for-microsoft-certified-windows-server-administrator/ba-p/4494120"
   },
-  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-github-certified-agentic-ai-developer/ba-p/4517571": {
-    "exam_codes": [
-      "GH-600"
-    ],
-    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-github-certified-agentic-ai-developer/ba-p/4517571",
-    "published": "Wed, 13 May 2026 16:43:08 GMT",
-    "source": "blog",
-    "title": "New GitHub Certified: Agentic AI Developer",
-    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-github-certified-agentic-ai-developer/ba-p/4517571"
-  },
   "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-365-certified-ai-services-administrator-associate/ba-p/4494123": {
     "exam_codes": [
       "AB-650"
@@ -95,16 +85,6 @@
     "source": "blog",
     "title": "New Microsoft 365 Certified: AI Services Administrator Associate Certification",
     "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-365-certified-ai-services-administrator-associate/ba-p/4494123"
-  },
-  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-cloud-and-ai-security-engineer-associate/ba-p/4494117": {
-    "exam_codes": [
-      "SC-500"
-    ],
-    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-cloud-and-ai-security-engineer-associate/ba-p/4494117",
-    "published": "Fri, 15 May 2026 16:00:00 GMT",
-    "source": "blog",
-    "title": "New Microsoft Certified: Cloud and AI Security Engineer Associate Certification",
-    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-cloud-and-ai-security-engineer-associate/ba-p/4494117"
   },
   "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-dynamics-365-contact-center-ai-engineer/ba-p/4494119": {
     "exam_codes": [
@@ -999,6 +979,15 @@
     "title": "Microsoft Office Specialist: Excel for Business Finance Associate",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/mos-excel-for-business-finance-associate/?WT.mc_id=api_CatalogApi"
   },
+  "certification.mos-excel-for-operational-management-associate": {
+    "id": "certification.mos-excel-for-operational-management-associate",
+    "kind": "Certification",
+    "level": "intermediate",
+    "products": [],
+    "source": "catalog",
+    "title": "Microsoft Office Specialist: Excel for Operational Management Associate",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/mos-excel-for-operational-management-associate/?WT.mc_id=api_CatalogApi"
+  },
   "certification.mos-expert-m365-apps": {
     "id": "certification.mos-expert-m365-apps",
     "kind": "Certification",
@@ -1077,7 +1066,7 @@
     "level": "advanced",
     "products": [],
     "source": "catalog",
-    "title": "Microsoft Certified: Multi-Agent AI Solutions Expert (beta)",
+    "title": "Microsoft Certified: Multi-Agent AI Solutions Expert",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/multi-agent-ai-solutions-expert/?WT.mc_id=api_CatalogApi"
   },
   "certification.operationalizing-machine-learning-and-generative-ai-solutions": {
@@ -1668,7 +1657,7 @@
       "microsoft-foundry"
     ],
     "source": "catalog",
-    "title": "Designing and Implementing Multi-Agent AI Solutions (beta)",
+    "title": "Designing and Implementing Multi-Agent AI Solutions",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-500/?WT.mc_id=api_CatalogApi"
   },
   "exam.ai-900": {
