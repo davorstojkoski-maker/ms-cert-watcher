@@ -247,7 +247,7 @@
     "level": "intermediate",
     "products": [],
     "source": "catalog",
-    "title": "Microsoft Certified: Azure Cosmos DB Developer Specialty",
+    "title": "Microsoft Certified: Azure Cosmos DB AI Developer Associate",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-cosmos-db-developer-specialty/?WT.mc_id=api_CatalogApi"
   },
   "certification.azure-data-fundamentals": {
@@ -1174,7 +1174,7 @@
     "level": "intermediate",
     "products": [],
     "source": "catalog",
-    "title": "Microsoft Certified: Windows Server Hybrid Administrator Associate",
+    "title": "Microsoft Certified: Windows Server Administrator Associate",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/windows-server-hybrid-administrator/?WT.mc_id=api_CatalogApi"
   },
   "exam.70-357": {
