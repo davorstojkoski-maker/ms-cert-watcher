@@ -1,12 +1,4 @@
 {
-  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/ai-skills-fest-is-just-days-away-here-s-what-to-expect/ba-p/4508888": {
-    "exam_codes": [],
-    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/ai-skills-fest-is-just-days-away-here-s-what-to-expect/ba-p/4508888",
-    "published": "Tue, 02 Jun 2026 19:42:16 GMT",
-    "source": "blog",
-    "title": "AI Skills Fest is just days away—here's what to expect",
-    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/ai-skills-fest-is-just-days-away-here-s-what-to-expect/ba-p/4508888"
-  },
   "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/ai-skills-navigator-is-now-available-in-microsoft-copilot/ba-p/4543633": {
     "exam_codes": [],
     "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/ai-skills-navigator-is-now-available-in-microsoft-copilot/ba-p/4543633",
@@ -14,6 +6,14 @@
     "source": "blog",
     "title": "AI Skills Navigator is now available in Microsoft Copilot",
     "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/ai-skills-navigator-is-now-available-in-microsoft-copilot/ba-p/4543633"
+  },
+  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/how-eq-bank-connects-ai-learning-innovation-and-governance/ba-p/4491677": {
+    "exam_codes": [],
+    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/how-eq-bank-connects-ai-learning-innovation-and-governance/ba-p/4491677",
+    "published": "Wed, 14 Oct 2026 22:20:18 GMT",
+    "source": "blog",
+    "title": "How EQ Bank connects AI learning, innovation, and governance",
+    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/how-eq-bank-connects-ai-learning-innovation-and-governance/ba-p/4491677"
   },
   "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/microsoft-ai-skills-fest-wraps-and-the-momentum-continues/ba-p/4508889": {
     "exam_codes": [],
@@ -86,25 +86,18 @@
     "title": "New Microsoft 365 Certified: AI Services Administrator Associate Certification",
     "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-365-certified-ai-services-administrator-associate/ba-p/4494123"
   },
-  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-dynamics-365-contact-center-ai-engineer/ba-p/4494119": {
+  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-agentic-devops-engineer-expert/ba-p/4528356": {
     "exam_codes": [
-      "AB-250"
+      "AZ-401",
+      "GH-300",
+      "AZ-104",
+      "AZ-400"
     ],
-    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-dynamics-365-contact-center-ai-engineer/ba-p/4494119",
-    "published": "Thu, 28 May 2026 16:00:00 GMT",
+    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-agentic-devops-engineer-expert/ba-p/4528356",
+    "published": "Fri, 16 Oct 2026 17:17:40 GMT",
     "source": "blog",
-    "title": "New Microsoft Certified: Dynamics 365 Contact Center AI Engineer Associate Certification",
-    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-dynamics-365-contact-center-ai-engineer/ba-p/4494119"
-  },
-  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-intelligent-applications-builder/ba-p/4494118": {
-    "exam_codes": [
-      "AB-410"
-    ],
-    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-intelligent-applications-builder/ba-p/4494118",
-    "published": "Wed, 27 May 2026 23:51:39 GMT",
-    "source": "blog",
-    "title": "New Microsoft Certified: Intelligent Applications Builder Associate Certification",
-    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-intelligent-applications-builder/ba-p/4494118"
+    "title": "New Microsoft Certified: Agentic DevOps Engineer Expert",
+    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-agentic-devops-engineer-expert/ba-p/4528356"
   },
   "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-multi-agent-ai-solutions-expert/ba-p/4494122": {
     "exam_codes": [
@@ -117,6 +110,17 @@
     "title": "New Microsoft Certified: Multi-Agent AI Solutions Expert Certification",
     "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-multi-agent-ai-solutions-expert/ba-p/4494122"
   },
+  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-supply-chain-management-ai-consultant/ba-p/4564533": {
+    "exam_codes": [
+      "AB-330",
+      "MB-330"
+    ],
+    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-supply-chain-management-ai-consultant/ba-p/4564533",
+    "published": "Fri, 16 Oct 2026 17:35:52 GMT",
+    "source": "blog",
+    "title": "New Microsoft Certified: Supply Chain Management AI Consultant Associate",
+    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-supply-chain-management-ai-consultant/ba-p/4564533"
+  },
   "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-ways-to-learn-and-demonstrate-skills/ba-p/4519038": {
     "exam_codes": [],
     "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-ways-to-learn-and-demonstrate-skills/ba-p/4519038",
@@ -125,13 +129,14 @@
     "title": "New ways to learn and demonstrate skills",
     "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-ways-to-learn-and-demonstrate-skills/ba-p/4519038"
   },
-  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/turn-up-the-volume-for-ai-skills-fest-no-wristband-required/ba-p/4494134": {
-    "exam_codes": [],
-    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/turn-up-the-volume-for-ai-skills-fest-no-wristband-required/ba-p/4494134",
-    "published": "Tue, 02 Jun 2026 19:46:59 GMT",
-    "source": "blog",
-    "title": "Turn up the volume for AI Skills Fest—no wristband required",
-    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/turn-up-the-volume-for-ai-skills-fest-no-wristband-required/ba-p/4494134"
+  "certification.agentic-ai-business-professional": {
+    "id": "certification.agentic-ai-business-professional",
+    "kind": "Certification",
+    "level": "intermediate",
+    "products": [],
+    "source": "catalog",
+    "title": "GitHub Certified: Agentic AI Business Professional (beta)",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/agentic-ai-business-professional/?WT.mc_id=api_CatalogApi"
   },
   "certification.agentic-ai-business-solutions-architect": {
     "id": "certification.agentic-ai-business-solutions-architect",
@@ -150,6 +155,15 @@
     "source": "catalog",
     "title": "GitHub Certified: Agentic AI Developer",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/agentic-ai-developer/?WT.mc_id=api_CatalogApi"
+  },
+  "certification.agentic-devops-engineer-expert": {
+    "id": "certification.agentic-devops-engineer-expert",
+    "kind": "Certification",
+    "level": "advanced",
+    "products": [],
+    "source": "catalog",
+    "title": "Microsoft Certified: Agentic DevOps Engineer Expert (beta)",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/agentic-devops-engineer-expert/?WT.mc_id=api_CatalogApi"
   },
   "certification.ai-agent-builder-associate": {
     "id": "certification.ai-agent-builder-associate",
@@ -1159,6 +1173,15 @@
     "title": "Microsoft Certified: Security Operations Analyst Associate",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/?WT.mc_id=api_CatalogApi"
   },
+  "certification.supply-chain-management-ai-consultant-associate": {
+    "id": "certification.supply-chain-management-ai-consultant-associate",
+    "kind": "Certification",
+    "level": "intermediate",
+    "products": [],
+    "source": "catalog",
+    "title": "Microsoft Certified: Supply Chain Management AI Consultant Associate (beta)",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/supply-chain-management-ai-consultant-associate/?WT.mc_id=api_CatalogApi"
+  },
   "certification.windows-server-administrator-associate": {
     "id": "certification.windows-server-administrator-associate",
     "kind": "Certification",
@@ -1616,7 +1639,7 @@
       "dataverse"
     ],
     "source": "catalog",
-    "title": "Power Platform Developer Associate",
+    "title": "Extending Microsoft Power Platform Solutions with Code and AI",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-400/?WT.mc_id=api_CatalogApi"
   },
   "exam.ab-650": {
@@ -1884,6 +1907,19 @@
     "source": "catalog",
     "title": "Designing and Implementing Microsoft DevOps Solutions",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-400/?WT.mc_id=api_CatalogApi"
+  },
+  "exam.az-401": {
+    "id": "exam.az-401",
+    "kind": "Exam",
+    "level": "advanced",
+    "products": [
+      "azure-devops",
+      "github",
+      "github-copilot"
+    ],
+    "source": "catalog",
+    "title": "Designing and Implementing Microsoft Agentic DevOps Solutions (beta)",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-401/?WT.mc_id=api_CatalogApi"
   },
   "exam.az-600": {
     "id": "exam.az-600",
