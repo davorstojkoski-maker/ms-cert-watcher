@@ -76,6 +76,16 @@
     "title": "New exam for Microsoft Certified: Windows Server Administrator Associate Certification",
     "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-exam-for-microsoft-certified-windows-server-administrator/ba-p/4494120"
   },
+  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-github-certified-agentic-ai-business-professional/ba-p/4564534": {
+    "exam_codes": [
+      "GH-700"
+    ],
+    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-github-certified-agentic-ai-business-professional/ba-p/4564534",
+    "published": "Fri, 23 Oct 2026 14:38:12 GMT",
+    "source": "blog",
+    "title": "New GitHub Certified: Agentic AI Business Professional",
+    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-github-certified-agentic-ai-business-professional/ba-p/4564534"
+  },
   "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-365-certified-ai-services-administrator-associate/ba-p/4494123": {
     "exam_codes": [
       "AB-650"
@@ -120,14 +130,6 @@
     "source": "blog",
     "title": "New Microsoft Certified: Supply Chain Management AI Consultant Associate",
     "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-supply-chain-management-ai-consultant/ba-p/4564533"
-  },
-  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-ways-to-learn-and-demonstrate-skills/ba-p/4519038": {
-    "exam_codes": [],
-    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-ways-to-learn-and-demonstrate-skills/ba-p/4519038",
-    "published": "Tue, 02 Jun 2026 15:13:48 GMT",
-    "source": "blog",
-    "title": "New ways to learn and demonstrate skills",
-    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-ways-to-learn-and-demonstrate-skills/ba-p/4519038"
   },
   "certification.agentic-ai-business-professional": {
     "id": "certification.agentic-ai-business-professional",
