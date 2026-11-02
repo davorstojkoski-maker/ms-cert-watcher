@@ -15,14 +15,6 @@
     "title": "How EQ Bank connects AI learning, innovation, and governance",
     "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/how-eq-bank-connects-ai-learning-innovation-and-governance/ba-p/4491677"
   },
-  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/microsoft-ai-skills-fest-wraps-and-the-momentum-continues/ba-p/4508889": {
-    "exam_codes": [],
-    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/microsoft-ai-skills-fest-wraps-and-the-momentum-continues/ba-p/4508889",
-    "published": "Tue, 16 Jun 2026 13:00:00 GMT",
-    "source": "blog",
-    "title": "Microsoft AI Skills Fest wraps—and the momentum continues",
-    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/microsoft-ai-skills-fest-wraps-and-the-momentum-continues/ba-p/4508889"
-  },
   "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/microsoft-credentials-roundup-june-2026/ba-p/4528350": {
     "exam_codes": [
       "GH-600",
@@ -191,7 +183,7 @@
     "level": "intermediate",
     "products": [],
     "source": "catalog",
-    "title": "Microsoft 365 Certified:  Microsoft 365 and AI Services Administrator Associate (beta)",
+    "title": "Microsoft 365 Certified: Microsoft 365 and AI Services Administrator Associate",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/ai-services-administrator-associate/?WT.mc_id=api_CatalogApi"
   },
   "certification.ai-transformation-leader": {
@@ -1655,7 +1647,7 @@
       "microsoft-purview"
     ],
     "source": "catalog",
-    "title": "Administering Microsoft 365 and AI Services (beta)",
+    "title": "Administering Microsoft 365 and AI Services",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-650/?WT.mc_id=api_CatalogApi"
   },
   "exam.ai-100": {
