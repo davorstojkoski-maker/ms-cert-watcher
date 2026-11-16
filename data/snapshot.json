@@ -15,47 +15,6 @@
     "title": "How EQ Bank connects AI learning, innovation, and governance",
     "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/how-eq-bank-connects-ai-learning-innovation-and-governance/ba-p/4491677"
   },
-  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/microsoft-credentials-roundup-june-2026/ba-p/4528350": {
-    "exam_codes": [
-      "GH-600",
-      "AB-620",
-      "AI-103",
-      "AI-200",
-      "AI-901",
-      "DP-750",
-      "SC-500",
-      "SC-730",
-      "AB-250",
-      "AB-210",
-      "AB-410",
-      "AI-300",
-      "AI-500",
-      "DP-800",
-      "AB-330",
-      "AZ-802",
-      "AB-650",
-      "AI-900",
-      "AZ-800",
-      "AZ-801",
-      "AI-102",
-      "DP-100",
-      "MB-240",
-      "MB-700",
-      "MB-335",
-      "PL-500",
-      "PL-600",
-      "AZ-204",
-      "MB-280",
-      "AZ-500",
-      "PL-200",
-      "MS-102"
-    ],
-    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/microsoft-credentials-roundup-june-2026/ba-p/4528350",
-    "published": "Fri, 14 Aug 2026 20:47:18 GMT",
-    "source": "blog",
-    "title": "Microsoft Credentials roundup: June 2026",
-    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/microsoft-credentials-roundup-june-2026/ba-p/4528350"
-  },
   "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-exam-for-microsoft-certified-windows-server-administrator/ba-p/4494120": {
     "exam_codes": [
       "AZ-802",
@@ -118,7 +77,7 @@
       "MB-330"
     ],
     "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-supply-chain-management-ai-consultant/ba-p/4564533",
-    "published": "Fri, 16 Oct 2026 17:35:52 GMT",
+    "published": "Tue, 03 Nov 2026 23:20:54 GMT",
     "source": "blog",
     "title": "New Microsoft Certified: Supply Chain Management AI Consultant Associate",
     "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-supply-chain-management-ai-consultant/ba-p/4564533"
@@ -1622,33 +1581,6 @@
     "source": "catalog",
     "title": "Agentic AI Business Solutions Architect",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-100/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.ab-400": {
-    "id": "exam.ab-400",
-    "kind": "Exam",
-    "level": "intermediate",
-    "products": [
-      "power-platform",
-      "power-apps",
-      "dataverse"
-    ],
-    "source": "catalog",
-    "title": "Extending Microsoft Power Platform Solutions with Code and AI",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-400/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.ab-650": {
-    "id": "exam.ab-650",
-    "kind": "Exam",
-    "level": "intermediate",
-    "products": [
-      "agent-365",
-      "entra",
-      "m365",
-      "microsoft-purview"
-    ],
-    "source": "catalog",
-    "title": "Administering Microsoft 365 and AI Services",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-650/?WT.mc_id=api_CatalogApi"
   },
   "exam.ai-100": {
     "id": "exam.ai-100",
