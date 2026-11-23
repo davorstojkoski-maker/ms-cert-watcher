@@ -1,4 +1,12 @@
 {
+  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/ai-skills-navigator-at-microsoft-ignite-2026-learn-practice/ba-p/4502647": {
+    "exam_codes": [],
+    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/ai-skills-navigator-at-microsoft-ignite-2026-learn-practice/ba-p/4502647",
+    "published": "Tue, 17 Nov 2026 00:09:19 GMT",
+    "source": "blog",
+    "title": "AI Skills Navigator at Microsoft Ignite 2026: Learn, practice, apply",
+    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/ai-skills-navigator-at-microsoft-ignite-2026-learn-practice/ba-p/4502647"
+  },
   "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/ai-skills-navigator-is-now-available-in-microsoft-copilot/ba-p/4543633": {
     "exam_codes": [],
     "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/ai-skills-navigator-is-now-available-in-microsoft-copilot/ba-p/4543633",
@@ -14,18 +22,6 @@
     "source": "blog",
     "title": "How EQ Bank connects AI learning, innovation, and governance",
     "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/how-eq-bank-connects-ai-learning-innovation-and-governance/ba-p/4491677"
-  },
-  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-exam-for-microsoft-certified-windows-server-administrator/ba-p/4494120": {
-    "exam_codes": [
-      "AZ-802",
-      "AZ-800",
-      "AZ-801"
-    ],
-    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-exam-for-microsoft-certified-windows-server-administrator/ba-p/4494120",
-    "published": "Wed, 08 Jul 2026 17:00:40 GMT",
-    "source": "blog",
-    "title": "New exam for Microsoft Certified: Windows Server Administrator Associate Certification",
-    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-exam-for-microsoft-certified-windows-server-administrator/ba-p/4494120"
   },
   "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-github-certified-agentic-ai-business-professional/ba-p/4564534": {
     "exam_codes": [
@@ -59,17 +55,6 @@
     "source": "blog",
     "title": "New Microsoft Certified: Agentic DevOps Engineer Expert",
     "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-agentic-devops-engineer-expert/ba-p/4528356"
-  },
-  "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-multi-agent-ai-solutions-expert/ba-p/4494122": {
-    "exam_codes": [
-      "AI-500",
-      "AI-103"
-    ],
-    "id": "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-multi-agent-ai-solutions-expert/ba-p/4494122",
-    "published": "Thu, 23 Jul 2026 16:36:49 GMT",
-    "source": "blog",
-    "title": "New Microsoft Certified: Multi-Agent AI Solutions Expert Certification",
-    "url": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-multi-agent-ai-solutions-expert/ba-p/4494122"
   },
   "blog:https://techcommunity.microsoft.com/t5/the-skills-hub-blog/new-microsoft-certified-supply-chain-management-ai-consultant/ba-p/4564533": {
     "exam_codes": [
@@ -450,24 +435,6 @@
     "source": "catalog",
     "title": "Microsoft Certified: Dynamics 365 Commerce Functional Consultant Associate",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-functional-consultant-commerce/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.d365-functional-consultant-customer-service": {
-    "id": "certification.d365-functional-consultant-customer-service",
-    "kind": "Certification",
-    "level": "intermediate",
-    "products": [],
-    "source": "catalog",
-    "title": "Microsoft Certified: Dynamics 365 Customer Service Functional Consultant Associate (Legacy with Power Platform)",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-functional-consultant-customer-service-legacy-with-power-platform/?WT.mc_id=api_CatalogApi"
-  },
-  "certification.d365-functional-consultant-customer-service-erlr": {
-    "id": "certification.d365-functional-consultant-customer-service-erlr",
-    "kind": "Certification",
-    "level": "intermediate",
-    "products": [],
-    "source": "catalog",
-    "title": "Microsoft Certified: Dynamics 365 Customer Service Functional Consultant Associate (Legacy)",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/d365-functional-consultant-customer-service-legacy/?WT.mc_id=api_CatalogApi"
   },
   "certification.d365-functional-consultant-customer-service-v3": {
     "id": "certification.d365-functional-consultant-customer-service-v3",
@@ -2037,18 +2004,6 @@
     "source": "catalog",
     "title": "Microsoft Dynamics 365 Customer Insights (Journeys) Functional Consultant",
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-220/?WT.mc_id=api_CatalogApi"
-  },
-  "exam.mb-230": {
-    "id": "exam.mb-230",
-    "kind": "Exam",
-    "level": "intermediate",
-    "products": [
-      "dynamics-365",
-      "dynamics-customer-service"
-    ],
-    "source": "catalog",
-    "title": "Microsoft Dynamics 365 Customer Service Functional Consultant",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-230/?WT.mc_id=api_CatalogApi"
   },
   "exam.mb-240": {
     "id": "exam.mb-240",
